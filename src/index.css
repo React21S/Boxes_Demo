@@ -5,10 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* code for boxes */
+
+body{
+  background-color: #1f1c18;
+  font-family: 'Times New Roman', Times,serif;
+ 
+}
+header,
+main,
+footer{
+  background-color:orange;
+  margin: 20px;
+  padding: 20px;
+}
+h1{
+  padding-left: 10px;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 2rem;
+  justify-content: center;
+}
+
+.box{
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 0 0 5px #000000;
+  justify-items: center;
+  align-items: center;
 }
