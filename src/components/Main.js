@@ -8,7 +8,7 @@ const Main= ()=>{
       <Box name = "Kartin" title = "Designer" age = "45"/>  
       </main>
       </div>
-    )
-  }
+    );
+  };
 
   export default Main;

@@ -5,7 +5,7 @@ const Header =()=>{
          <h1>Logo</h1>  
      </header>
       </div>
-    )
-  }
+    );
+  };
 
-  export default Header
+  export default Header;

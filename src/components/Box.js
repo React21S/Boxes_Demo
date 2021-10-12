@@ -8,7 +8,7 @@
          <p>Age: {props.age} </p> 
        </div>
       </div>
-    )
-  }
+    );
+  };
 
-  export default Box
+  export default Box;
