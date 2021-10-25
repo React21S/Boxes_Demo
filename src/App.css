@@ -82,3 +82,13 @@ td:nth-child(even){
   background-color: #b4e780;
 
 }
+
+button{
+  display: block;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  padding: 1rem;
+}

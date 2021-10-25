@@ -9,34 +9,40 @@ class MainC extends Component{
         {  name : "Kati", title: "Developer", age:25},
          {  name : "Kartin", title: "designer", age:45},
       ]
+    };
 
-
-    }
-    
+    changeHandler = ()=>{
+      alert("WOW")
+    };
     
     render(){
         return (
+          <>
         <main>
             <Box  
             name={this.state.persons[0].name}
-            age={this.state.persons[0].title}
-            title={this.state.persons[0].age}
+            title={this.state.persons[0].title}
+            age={this.state.persons[0].age}
             />
-           
+  
            <Box  
             name={this.state.persons[1].name}
-            age={this.state.persons[1].title}
-            title={this.state.persons[1].age}
+            title={this.state.persons[1].title}
+            age={this.state.persons[1].age}
             />
               <Box  
             name={this.state.persons[2].name}
-            age={this.state.persons[2].title}
-            title={this.state.persons[2].age}
+            title={this.state.persons[2].title}
+            age={this.state.persons[2].age}
             />
+  
         </main>
+        <button onClick={this.changeHandler}>click me</button>
+
+        </>
         );
-    }
-}
+    };
+};
 
 
 export default MainC;
