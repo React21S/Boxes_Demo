@@ -49,14 +49,14 @@ footer{
   justify-items: center;
   text-align: center;
 }
-Button{
+/* Button{
   background-color: aqua;
   padding: 10px;
   margin: 20px;
   border-color: #9c9898;
-}
+} */
 
-
+  
 
 
 table{
@@ -84,11 +84,14 @@ td:nth-child(even){
 }
 
 button{
-  display: block;
+  /* display: block; */
   background-color: green;
   color: white;
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 5px #333;
   padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
