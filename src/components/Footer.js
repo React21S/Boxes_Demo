@@ -4,7 +4,7 @@ const Footer = ()=>{
  <footer>
          <p>
              <small>
-             Copyrights
+             Femi Adesola &copy; 2021
              </small>
          </p>
          

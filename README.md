@@ -1,7 +1,9 @@
 # Box class function
 
 ## screenshot
-![screenshot for Box class function ](box.png)
+![screenshot for Box class function ](/img/box.png)
+
+![screenshot for form class function ](/img/form.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

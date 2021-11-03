@@ -6,7 +6,7 @@ body{
  
 }
 header,
-main,
+
 footer{
   background-color:orange;
   margin: 20px;
@@ -15,56 +15,91 @@ footer{
 h1{
   padding-left: 10px;
 }
+
 main{
+  background-color:#cec4b3;
   display: flex;
   flex-wrap: wrap;
   padding: 5rem 2rem;
   justify-content: center;
+
+}
+
+a{
+  color: hsl(0, 12%, 5%);
+  text-decoration: none;
+}
+.active{
+  color:#e0f0e8;
 }
 
 .box{
   background-color: white;
+  text-align: center;
   padding: 20px;
   margin: 10px;
   width: 200px;
   height: 200px;
-  text-align: center;
   box-shadow: 0 0 5px #000000;
   justify-items: center;
   align-items: center;
 }
 
 footer{
+  position: fixed;
   text-align: center;
+  width: 100%;
+  bottom: 0;
+  margin: 0 auto;
 }
-
-.test{
-  display: block;
-  background-color: white;
-  padding: 20px;
-  margin: 20px;
-  height: 100px auto;
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
+/* Header area */
+header {
+  display: flex;
+  justify-content: space-between;
 }
-/* Button{
-  background-color: aqua;
-  padding: 10px;
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
   margin: 20px;
-  border-color: #9c9898;
-} */
-
+  font-size: 30px;
   
+}
 
 
+/* Form */
+input
+{
+  width: 500px;
+  padding:20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 20px;
+}
+label {
+  font-size: 1.5rem;
+  display: flex;
+  padding: 10px;
+  width: 20%;
+}
+.form-group {
+  padding: 10px;
+}
+
+.render{
+  padding: 30px;
+  font-size: 1.5rem;
+  border: 2px solid #ffffff;
+}
+
+/* table  */
 table{
   border: 1px solid black;
   display: flex;
   padding: 20px;
   padding: 20px;
   justify-content: center;
+  outline: none;
 
 }
 td{
